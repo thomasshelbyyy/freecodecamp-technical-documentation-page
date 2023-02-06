@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Poppins&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 300px;
+    max-height: 3000px;
+}
+
+#navbar {
+    height: 100%;
+    border-right: solid 2.5px #333;
+}
+
+#navbar h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90%;
+}
+
+#navbar ul li {
+    border: solid 1.3px #333;
+}
+
+#main-header #navbar ul li a {
+    display: block;
+    text-align: left;
+    padding: 0.8rem 1rem 0.8rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222;
+}
+
+/* for main documentation */
+
+#main-doc {
+    position: absolute;
+    margin-left: 320px;
+    padding: 1.5rem 1rem;
+}
+
+#main-doc .main-section header {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+#main-doc .main-section article {
+    margin: 0 1.5rem 0 2rem;
+}
+
+#main-doc .main-section article p {
+    margin-bottom: 1.7rem;
+}
+
+#main-doc .main-section article ul{
+    display: block;
+    margin: 0 0 1.7rem 2rem;
+}
+
+#main-doc .main-section article code {
+    display: block;
+    margin: 0 0 1.7rem 2rem;
+    color: rgb(80, 79, 79);
+}
